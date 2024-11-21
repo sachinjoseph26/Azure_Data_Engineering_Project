@@ -29,8 +29,8 @@ The architecture leverages Azure services to ensure scalability, security, and e
 ## Repository Structure
 ```text
 ├── README.md          
-├── data_pipeline/     
-├── transformations/   
-├── dashboards/        
-├── config/            
-└── docs/              
+├── azure_databricks_transformations/     
+├── data_pipeline/  
+├── dashboards/                    
+└── docs/
+└── SQL/              
