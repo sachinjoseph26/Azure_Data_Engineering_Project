@@ -1,0 +1,6 @@
+selected resource name:		CopyTablesData
+selected resource type:		pipeline
+factory name:			sj-cd-df
+factory location:		eastus
+subscription id:		6af67a3f-3389-491a-aa35-b2d1473f0d5f
+time of download (UTC):		Thu, 21 Nov 2024 22:10:10 GMT

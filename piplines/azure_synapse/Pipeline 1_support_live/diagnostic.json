@@ -1,0 +1,23 @@
+{
+    "now": "2024-11-21T22:11:33.600Z",
+    "perfNow": 163547.60000002384,
+    "diagnosticCorrelation": "7bb88332-b087-4df0-b0b3-1a80264537c6",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "a365",
+        "buildVersion": "24.1112.05",
+        "environmentType": 9,
+        "resourceName": "synapsesj",
+        "resourceRegion": "westus",
+        "resourceGroup": "rg_de_cd",
+        "subscriptionId": "6af67a3f-3389-491a-aa35-b2d1473f0d5f",
+        "sessionId": "Rg6HMm5hidkCgxH9pl66rw",
+        "operationId": "g_Yj=",
+        "gitType": "live",
+        "loggingKey": "7f462a4f-3de1-4e24-ae1b-d4522efd1a85"
+    },
+    "additionalInfo": {
+        "selectedResource": "Pipeline 1",
+        "selectedResourceType": "pipeline"
+    }
+}

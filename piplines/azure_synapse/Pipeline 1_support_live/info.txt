@@ -1,0 +1,6 @@
+selected resource name:		Pipeline 1
+selected resource type:		pipeline
+workspace name:			synapsesj
+workspace location:		westus
+subscription id:		6af67a3f-3389-491a-aa35-b2d1473f0d5f
+time of download (UTC):		Thu, 21 Nov 2024 22:11:33 GMT

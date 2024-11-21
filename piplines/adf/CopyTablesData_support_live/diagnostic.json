@@ -1,0 +1,23 @@
+{
+    "now": "2024-11-21T22:10:10.595Z",
+    "perfNow": 115646.09999996424,
+    "diagnosticCorrelation": "13dcbab2-918d-4773-b12c-dd4706dcf59c",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.101424.2",
+        "environmentType": 3,
+        "resourceName": "sj-cd-df",
+        "resourceRegion": "eastus",
+        "resourceGroup": "rg_de_cd",
+        "subscriptionId": "6af67a3f-3389-491a-aa35-b2d1473f0d5f",
+        "sessionId": "lgVowAQubdPGpy1SEdDHhO",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "487d5681-24bd-4f75-8d6a-d89dd1b5f1a1"
+    },
+    "additionalInfo": {
+        "selectedResource": "CopyTablesData",
+        "selectedResourceType": "pipeline"
+    }
+}

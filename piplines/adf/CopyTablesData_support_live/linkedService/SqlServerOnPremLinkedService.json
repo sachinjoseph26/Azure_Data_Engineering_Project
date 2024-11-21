@@ -1,0 +1,28 @@
+{
+    "name": "SqlServerOnPremLinkedService",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "SqlServer",
+        "typeProperties": {
+            "server": "Sachin2605\\D_SERVER",
+            "database": "AdventureWorksLT2017",
+            "encrypt": "optional",
+            "trustServerCertificate": false,
+            "authenticationType": "SQL",
+            "userName": "saj",
+            "password": {
+                "type": "AzureKeyVaultSecret",
+                "store": {
+                    "referenceName": "AzureKeyVaultSQL",
+                    "type": "LinkedServiceReference"
+                },
+                "secretName": "password"
+            }
+        },
+        "connectVia": {
+            "referenceName": "SHIR",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

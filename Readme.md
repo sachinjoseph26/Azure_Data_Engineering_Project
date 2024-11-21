@@ -17,6 +17,11 @@ The architecture leverages Azure services to ensure scalability, security, and e
 - **Security & Governance:** Includes Azure Active Directory for authentication and Key Vaults for secure credential management.
 
 
+## Dashboard:
+
+![alt text](Dashboard.png)
+
+
 ## Objectives
 1. Provide actionable insights into:
    - Sales by gender.
@@ -33,4 +38,51 @@ The architecture leverages Azure services to ensure scalability, security, and e
 ├── data_pipeline/  
 ├── dashboards/                    
 └── docs/
-└── SQL/              
+└── SQL/ 
+```
+
+## Setup Instructions
+
+### Prerequisites
+- Azure subscription
+- Power BI installed on your system
+- Access to an on-premises SQL database
+- Azure CLI installed locally (optional but recommended)
+
+### Steps
+#### Azure Data Factory Pipelines
+1. **Extract Pipeline**:
+   - Extracts data from the on-premises SQL database.
+   - Stores raw data in the **Bronze layer** of Azure Data Lake.
+
+2. **Transform Pipeline**:
+   - Uses Databricks to clean and transform data.
+   - Outputs refined data to the **Silver layer**.
+
+3. **Load Pipeline**:
+   - Loads curated data from the Gold layer into Synapse Analytics for analytics and reporting.
+
+#### Synapse Pipelines
+1. **KPI Calculation Pipeline**:
+   - Runs SQL scripts to calculate aggregated metrics for Power BI dashboards.
+
+## Key Features
+- **Scalable Data Lake Architecture**: Organized into Bronze, Silver, and Gold layers for efficient data processing.
+- **Automation**: Fully automated pipelines with daily triggers.
+- **Security**: Integration with Azure Key Vault for secure credential management.
+- **Interactivity**: Power BI dashboard enables dynamic filtering by gender, product category, and time periods.
+
+## Usage Instructions
+
+1. **Run the ADF Pipeline**:
+   - Navigate to the Azure Data Factory portal.
+   - Trigger the Pipeline to initiate data ingestion.
+
+2. **Monitor Pipeline Runs**:
+   - Use the **Monitor** tab in Azure Data Factory to track progress and debug issues.
+
+3. **Access the Dashboard**:
+   - Open the Power BI report file (`dashboards/Report_New.pbix`).
+   - Update the data source connection to your Synapse Analytics instance.
+   - Publish the dashboard to Power BI service for sharing with stakeholders.
+
