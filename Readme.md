@@ -6,7 +6,7 @@ This project addresses a business request to analyze customer demographics and g
 
 ## Architecture
 
-![Architecture](docs\ArchitectureDiagram.png)
+![Architecture](ArchitectureDiagram.png)
 The architecture leverages Azure services to ensure scalability, security, and efficient data processing. The key components include:
 - **On-Premises SQL Database:** The source of customer and sales data.
 - **Azure Data Factory:** Used for orchestrating and automating data extraction and loading processes.
